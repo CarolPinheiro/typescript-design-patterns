@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES2019", // ambiente onde você vai rodar o projeto em produção, pra saber qual versão do typescript usar
+    "target": "ES2019",
     "module": "CommonJS",
-    "lib": ["DOM", "ESNext"], // DOM, mt bom pra JS, preciso pesquisar dps
-    "outDir": "./dist", // pra onde deve ser compilado o dado
+    "lib": ["DOM", "ESNext"],
+    "outDir": "./dist",
     "rootDir": "./src",
-    "removeComments": true, // remove comentários do código compilado
-    "noEmitOnError": true, // não gera o código compilado se tiver algum erro
+    "removeComments": true,
+    "noEmitOnError": true,
     "strict": true,
-    "esModuleInterop": true, // habilita a interoperabilidade entre o CommonJs e o ES6 modules
-    "skipLibCheck": true, // pula checagem de arquivo que são declaration files
-    "forceConsistentCasingInFileNames": true // não permitir referências inconsistentes para nomes de arquivos
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["./src"]
 }
